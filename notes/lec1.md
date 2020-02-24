@@ -12,14 +12,14 @@ Too low, can be stuck in local minimum
 Too high, overshooting and diverge
 
 ## How to find the perfect learning rate:
-# Constant learning rate, binray search, test and try
-# Adaptive learning rates: increase or decrease while training
+Constant learning rate, binray search, test and try
+Adaptive learning rates: increase or decrease while training
 	SGD / not adaptive
 	Adam, Adadelta, Adagrad, RMSProp / adaptive
 
 
 ## batching
-1: Too noisy 
+size of 1: Too noisy 
 Entire dataset: computationally expensive
 Middle Ground: mini batch 
 	Advantage: Faster, More accurate estimation of gradient, Smoother convergence, allow for larger learning rates because you can trust the steps with less noises. Parrallel computings with batches
