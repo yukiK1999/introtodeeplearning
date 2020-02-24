@@ -31,5 +31,7 @@ Overfitting memorizing data, ideal fit generalizations.
 ## Regularization Techniques
 Discourage our model to learn complex ideas, because we want generalization to test data.
 
-## Technique 1 Dropout: drop some of the neurons in hidden layers to 0 or activation level to zero. Can't build memorization channel to the neuron. 50% memo 50% forgot. Genralize better.
-## Technique 2 Early Stopping: Initially, the test and training data accuracy both increases. If the model overfits to the training data, the test data accuracy will decrease. So find the model when the test data accuracy went down, that is our ideal model.  
+## Technique 1 Dropout: 
+drop some of the neurons in hidden layers to 0 or activation level to zero. Can't build memorization channel to the neuron. 50% memo 50% forgot. Genralize better.
+## Technique 2 Early Stopping: 
+Initially, the test and training data accuracy both increases. If the model overfits to the training data, the test data accuracy will decrease. So find the model when the test data accuracy went down, that is our ideal model.  
