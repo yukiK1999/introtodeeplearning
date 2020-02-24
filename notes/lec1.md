@@ -1,4 +1,4 @@
-##Loss functions
+## Loss functions
 Emprical loss: total loss over entire dataset
 Cross Entropy loss: use for models that output a probaility between 0 and 1
 Mean Squared Error loss: use for regression models that output continuous real numbers
@@ -11,9 +11,9 @@ argmax of log losses
 Too low, can be stuck in local minimum
 Too high, overshooting and diverge
 
-Two settings
-Constant learning rate, binray search
-Adaptive learning rates: increase or decrease while training
+## How to find the perfect learning rate:
+# Constant learning rate, binray search, test and try
+# Adaptive learning rates: increase or decrease while training
 	SGD / not adaptive
 	Adam, Adadelta, Adagrad, RMSProp / adaptive
 
